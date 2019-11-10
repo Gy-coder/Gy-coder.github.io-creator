@@ -1,0 +1,4 @@
+baseURL = "https://gy-coder.xyz/"
+languageCode = "en-Hans"
+title = "Gy的个人网站"
+theme = "ananke" 

@@ -35,7 +35,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://gy-coder.xyz/posts/" />
 
-<meta property="og:updated_time" content="2019-11-10T10:59:37+08:00" />
+<meta property="og:updated_time" content="2019-11-10T12:55:30+08:00" />
 <meta itemprop="name" content="Posts">
 <meta itemprop="description" content="">
 
@@ -91,6 +91,34 @@
   <article class="pa3 pa4-ns nested-copy-line-height nested-img">
     <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"></section>
     <section class="flex-ns flex-wrap justify-around mt5">
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="https://gy-coder.xyz/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="link black dim">
+        如何用Hugo搭建个人博客
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      安装  在Mac上 在Mac上安装hugo非常方便，仅需要两个命令就可以完成
+brew install hugo  验证hugo的安装是否成功
+hugo version  在Windows上
+ 去Hugo release页面下载hugo_xxx_Windows-64bit.zip 解压，把hugo.exe放到D:\Software\hugo\hugo.exe 把D:\Software\hugo\加到PATH中 重启终端，运行hugo version查看版本
+快速搭建博客  进入Hugo官网，点击Quick Start
+ 从Step 2到Step 7按照网页上的内容依次操作
+ 操作完毕后会得到一个public目录，这就是我们的博客站点
+ 创建.gitignore文件，在文件内写入/public/
+(注：讲public与hugo的内容分离，上传到两个分支)
+ cd public(进入public目录中) —&gt;git init-&gt;git add . -&gt;git commit (注：将public上传到本地的git仓库)
+ 在GitHub中创建一个仓库，名为(用户名).github.io
+  例如：Gy-coder.github.io 7. git remote add origin (你的SSH地址)
+git push -u origin master
+(注：确保cd的是public，因为只上传public到.github,io仓库中) 8. 点击 setting，找到GitHub Pages，然后点击链接就可以看到blog的内容了
+    </div>
+  </div>
+</div>
+</div>
       
         <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
   <div class="bg-white mb3 pa4 gray overflow-hidden">

@@ -6,10 +6,32 @@
     <description>Recent content on Gy的个人网站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-Hans</language>
-    <lastBuildDate>Sun, 10 Nov 2019 10:59:37 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 10 Nov 2019 12:55:30 +0800</lastBuildDate>
     
 	<atom:link href="https://gy-coder.xyz/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>如何用Hugo搭建个人博客</title>
+      <link>https://gy-coder.xyz/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Sun, 10 Nov 2019 12:55:30 +0800</pubDate>
+      
+      <guid>https://gy-coder.xyz/posts/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>安装  在Mac上 在Mac上安装hugo非常方便，仅需要两个命令就可以完成
+brew install hugo  验证hugo的安装是否成功
+hugo version  在Windows上
+ 去Hugo release页面下载hugo_xxx_Windows-64bit.zip 解压，把hugo.exe放到D:\Software\hugo\hugo.exe 把D:\Software\hugo\加到PATH中 重启终端，运行hugo version查看版本
+快速搭建博客  进入Hugo官网，点击Quick Start
+ 从Step 2到Step 7按照网页上的内容依次操作
+ 操作完毕后会得到一个public目录，这就是我们的博客站点
+ 创建.gitignore文件，在文件内写入/public/
+(注：讲public与hugo的内容分离，上传到两个分支)
+ cd public(进入public目录中) —&amp;gt;git init-&amp;gt;git add . -&amp;gt;git commit (注：将public上传到本地的git仓库)
+ 在GitHub中创建一个仓库，名为(用户名).github.io
+  例如：Gy-coder.github.io 7. git remote add origin (你的SSH地址)
+git push -u origin master
+(注：确保cd的是public，因为只上传public到.github,io仓库中) 8. 点击 setting，找到GitHub Pages，然后点击链接就可以看到blog的内容了</description>
+    </item>
     
     <item>
       <title>开篇大吉</title>
